@@ -1,0 +1,20 @@
+.card{
+    scale: .8;
+    background: black;
+    transition: all ease-in-out 0.5s;
+}
+.card:hover{
+    scale: 0.85;
+    transition: all ease-in-out 0.5s;
+}
+.card-body{
+    background: #141414;
+    background: #e8e8e8;
+    border-radius: 10px;
+}
+a.btn{
+    background: #141414 !important;
+    text-align: center;
+    font-size: x-large;
+
+}

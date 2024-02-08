@@ -1,0 +1,15 @@
+.ps2-container{
+    padding-top: 15vh;
+    color: black;
+    height: 100vh;
+    width: 40%;
+    border-right: 2px solid black;
+
+}
+.form-label{
+    color: black !important;
+    font-size: large !important;
+}
+body{
+    background: white;
+}

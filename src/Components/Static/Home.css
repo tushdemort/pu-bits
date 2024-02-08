@@ -1,0 +1,72 @@
+.top {
+  position: relative;
+  height: 50vh;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 20vw;
+  padding-top: 10vh;
+  background-image: url("../../assets/Screenshot\ 2024-02-08\ 215627.png") !important;
+}
+
+.bottom {
+  position: relative;
+  min-height: 50vh;
+  background-color: black;
+  padding-left: 5vw;
+  padding-right: 10vw;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Mooli', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik Mono One', monospace;
+
+
+}
+
+.heading {
+  font-size: 3vw;
+  z-index: 1; 
+  position: absolute !important; 
+  left: 70vh;
+  top: 10vw;
+  
+}
+
+.tagline {
+  z-index: 1; 
+  font-size: 2vw; 
+  position: absolute !important; 
+  left: 55vh;
+  top:17vw;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+
+img.home-image{
+  z-index: 0;
+  width:100%;
+  height:100%;
+  position: absolute ;
+  top: 0;
+  left: 0px;
+  filter: brightness(50%)
+}
+.below{
+  max-width: fit-content;
+}

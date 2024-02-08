@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@700&family=Mooli&family=Open+Sans:ital,wght@0,700;1,400&family=Oswald:wght@500;700&family=Pixelify+Sans:wght@700&family=Poppins:wght@800&family=Rubik+Mono+One&display=swap');
+
+a.navbar-item {
+    color: black;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: x-large;
+}
+
+div.navbar {
+    background: white;
+    scale: 0.7;
+}
