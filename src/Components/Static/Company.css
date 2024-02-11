@@ -1,0 +1,89 @@
+.company-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    padding-left: 0;
+  }
+body{
+    background: #f5f5f5;
+    color: black;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 25%;
+    height: 100%;
+    background: #f5f5f5;
+    padding-top: 10rem;
+    border-right: 2px solid black;
+}
+.right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    background: #f5f5f5;
+    padding-top: 10rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.avatar{
+    position:inherit;
+    scale: 4;
+    margin-top: -40vh;
+}
+img{
+    border: 1px solid black;
+}
+.name{
+    margin-top:5rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.badge{
+    margin: 2px;
+}
+.row-right{ 
+    padding-top: 5rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+.salary{
+    font-size: xx-large;
+    border: 2px solid rgb(222, 224, 227);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:-10vh;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin:2rem;
+}
+h3{
+    font-weight: bold !important;
+}
+h4{
+    font-size: small!important;
+    color: rgb(61, 62, 63)!important;
+}
+.location{
+    margin:2rem;
+    font-size: xx-large;
+    border: 2px solid rgb(222, 224, 227);
+    padding: 5px;
+        border-radius: 5px;
+        padding-right: 10rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+}

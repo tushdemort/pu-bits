@@ -7,6 +7,7 @@ import Home from './Components/Home'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PS2 from './Components/PS2'
+import Company from './Components/Company'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <Route>
           <Route index element={<Home />} />
           <Route path="ps2" element={<PS2 />} />
+          <Route path="c" element={<Company />} />
         </Route>
       </Routes>
     </BrowserRouter>
