@@ -22,7 +22,7 @@
   font-size: 3vw;
   z-index: 1; 
   position: absolute !important; 
-  left: 70vh;
+  left: 77vh;
   top: 10vw;
   
 }
@@ -31,7 +31,7 @@
   z-index: 1; 
   font-size: 2vw; 
   position: absolute !important; 
-  left: 55vh;
+  left: 61vh;
   top:17vw;
 }
 
@@ -57,4 +57,5 @@ img.home-image{
 }
 .below{
   max-width: fit-content;
+  padding-left: 5rem;
 }
