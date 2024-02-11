@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import './Static/Cards.css'
-import sitting from '../assets/sitting.png'
 import { Link } from "react-router-dom";
 
 export class Cards extends Component {
@@ -12,7 +11,7 @@ export class Cards extends Component {
             <>
                 <div class="card card-image-cover">
                     <div class="card-body">
-                    <img src={sitting} alt="" />
+                    <img src={this.props.img} alt="" />
                         <a href={this.props.link} class="btn btn-primary">{this.props.text}</a>
                     </div>
                 </div>
